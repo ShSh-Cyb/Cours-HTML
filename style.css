@@ -1,7 +1,34 @@
 body {
-    background: rgb(255, 0, 0) /* soit red, soit #ff0000, soit rgb(255,0,0) */;
+    background: rgb(0, 247, 255) /* soit red, soit #ff0000, soit rgb(255,0,0) */;
 }
 .h1-custum {
     color: rgb(87, 244, 39);
     text-align: center;
+}
+.p-custum {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: burlywood;
+}
+.p1-custum {
+    font-size: 18px;
+    margin: 105px;
+    text-align: 1.5;
+    color: blueviolet;
+}
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.item item --1 {
+    background-color: rgb(230, 173, 173);
+    padding: 20px;
+    border: 2px solid blue;
 }
